@@ -5,8 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:KineticController"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="KineticController"
+        Height="480"
+        Width="640"
+        Loaded="Window_Loaded"
+        Closed="Window_Closed">
     <Grid>
-        
+        <Image Name="ColorImage" SnapsToDevicePixels="True" />
     </Grid>
 </Window>
